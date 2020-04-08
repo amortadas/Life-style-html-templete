@@ -1,0 +1,291 @@
+@media only screen and (max-width: 320px){
+	
+.full_wrapper {
+	width: 320px;
+	padding: 0;
+}
+.left_logo {
+	width: 100%;
+}
+.top_search input[type="text"] {
+	margin: 15px 0;
+}
+.top_search button {
+	top: 64%;
+	right: 11%;
+}
+.right_menu {
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.ct_contet {
+	flex-direction: column;
+}
+.ct_contet h2 {
+	font-size: 22px;
+	line-height: 25px;
+	text-align: center;
+}
+.ct_contet a {
+	padding: 13px 40px;
+	font-size: 18px;
+	margin-top: 16px;
+}
+#services li {
+	display: block;
+	width: 100%;
+	padding-left: 42%;
+	height: 100px;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+.single_service h4 {
+	font-size: 18px;
+}
+#facilis {
+	padding: 0px 20px;
+}
+.facilis_title h3 {
+	top: -8px;
+	font-size: 14px;
+}
+.facilis_title h3::before {
+	width: 53%;
+
+}
+.facilis_content li {
+	display: block;
+	width: 100%;
+
+}
+.facilis_content li:nth-child(2){
+	
+	margin-left: 0;
+	margin-right: 0;
+}
+.facilis_content li:nth-child(5){
+	margin-left: 0;
+	margin-right: 0;
+
+}
+#footer_widget_area li {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+#foot p span:nth-child(2) {
+	float: left;
+}
+
+}
+@media only screen and (min-width:480px) and (max-width: 767px){
+
+.full_wrapper {
+	width: 460px;
+	padding: 0px;
+}
+.left_logo {
+	width: 100%;
+}
+.right_menu {
+	width: 100%;
+	text-align: center;
+}
+.top_search {
+	margin: 15px 0;
+}
+.top_search button {
+	right: 24%;
+}
+.main_menu ul li a {
+	font-size: 11px;
+}
+.ct_contet {
+	flex-direction: column;
+}
+.ct_contet h2 {
+	font-size: 25px;
+	line-height: 32px;
+	text-align: center;
+}
+.ct_contet a {
+	font-size: 20px;
+	margin-top: 15px;
+}
+#services li {
+	display: block;
+	width: 100%;
+	padding-left: 29%;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+#facilis {
+	padding: 0 20px;
+}
+.facilis_title h3 {
+	top: -10px;
+	font-size: 17px;
+}
+.facilis_title h3::before {
+	width: 46%;
+}
+
+.facilis_content li {
+	width: 100%;
+}
+.facilis_content li:nth-child(2){
+	
+	margin-left: 0;
+	margin-right: 0;
+}
+.facilis_content li:nth-child(5){
+	margin-left: 0;
+	margin-right: 0;
+
+}
+#footer_widget_area li {
+	display: block;
+	width: 100%;
+}
+#foot p span:nth-child(2) {
+	float: left;
+	margin: 15px 0;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+.full_wrapper {
+	width: 760px;
+}
+
+.main_menu ul li a {
+	font-size: 12px;
+}
+.ct_contet h2 {
+	font-size: 21px;
+	line-height: 26px;
+}
+.ct_contet a {
+	padding: 13px 15px;
+	font-size: 16px;
+	text-align: center;
+}
+#services li {
+	display: block;
+	width: 100%;
+	padding-left: 17%;
+	margin-top: 15px;
+}
+.single_service h4::after {
+	width: 13%;
+}
+.single_service p {
+	font-size: 15px;
+}
+#facilis {
+	padding: 0 20px;
+}
+.facilis_title h3::before {
+	width: 35%;
+}
+.facilis_content li {
+	width: 100%;
+}
+.facilis_content li:nth-child(2){
+	
+	margin-left: 0;
+	margin-right: 0;
+}
+.facilis_content li:nth-child(5){
+	margin-left: 0;
+	margin-right: 0;
+}
+.single_facilis h4 {
+	font-size: 17px;
+}
+.facilis_content li p {
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

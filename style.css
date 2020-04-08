@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	outline: 0;
+}
+body{
+	font-family: 'Source Serif Pro', serif;
+	font-size: 13px;
+}
+#image{
+	width: 100%;
+}
+.full_wrapper{
+	width:1000px;
+	padding: 0;
+	margin:0 auto;
+}
+#head{
+	background:#27292F;
+	overflow: hidden;
+	padding: 30px 20px;
+	
+}
+.left_logo{
+	width: 35%;
+	float: left;
+	color:#fff;
+}
+.left_logo h1 {
+	font-size: 38px;
+}
+.right_menu{
+	width:65%;
+	float: left;
+	text-align: right;
+}
+.main_menu ul{
+	margin: 0;
+	padding: 0;
+}
+.main_menu ul li{
+	display: inline;
+	list-style-type: none;
+
+}
+.main_menu ul li a{
+	text-decoration: none;
+	color:#fff;
+	display: inline-block;
+	padding: 15px 5px;
+}
+.top_search input[type="text"] {
+	background: #1f232c;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 15px;
+	min-width: 200px;
+	color: #fff;
+	position: relative;
+}
+.top_search{
+	position: relative;
+}
+.top_search button {
+	background: #11131A;
+	border: none;
+	color: #fff;
+	top: 10%;
+	right: 1%;
+	position: absolute;
+	padding: 5px;
+	border-radius: 50%;
+	height: 28px;
+	width:28px;
+	cursor: pointer;
+}
+.content_area{
+	background: #e7e7e7;
+}
+.ct_contet {
+	padding: 50px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.ct_contet h2 {
+	flex-basis: 68%;
+	font-size: 28px;
+	line-height: 36px;
+}
+.ct_contet a {
+	color: #fff;
+	text-decoration: none;
+	background: #1f232c;
+	padding: 13px 48px;
+	font-size: 25px;
+	flex-basis: 32%;
+	border-radius: 15px;
+}
+#services{
+	padding: 50px 20px;
+}
+#services li{
+	display: inline-block;
+	width:22%;
+	background-image: url(https://placehold.it/100x100);
+	background-repeat: no-repeat;
+	padding-left: 11%;
+	height: 100px;
+}
+.single_service h4 {
+	font-size: 22px;
+	padding-bottom: 8px;
+	position: relative;
+}
+.single_service h4::after {
+	content: "";
+	position: absolute;
+	height: 3px;
+	width: 44%;
+	background: #1f232c;
+	left: 0;
+	bottom: 0;
+}
+.single_service p {
+	padding-top: 8px;
+	color: #979797;
+}
+#facilis{
+	padding: 80px 20px;
+}
+.facilis_title{
+	text-align: center;
+	position: relative;
+	margin: 5% 0;
+}
+.facilis_border{
+	width:100%;
+	height: 3px;
+	background: #1f232c;
+}
+.facilis_title h3 {
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	top: -12px;
+	font-size: 20px;
+}
+.facilis_title h3::before {
+	z-index: -10;
+	background: #fff;
+	content: "";
+	width: 25%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	height: 100%;
+
+}
+.facilis_content li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	padding: 0 0 15px 0;
+	background: #eee;
+	margin: 15px 0;
+	width:32%;
+	margin-top: 0;
+}
+.facilis_content li img{
+	width:100%;
+	padding-bottom: 10px;
+}
+.facilis_content li:nth-child(2){
+	
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.facilis_content li:nth-child(5){
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.facilis_content li p{
+	color:#979797;
+}
+#footer_widget_area{
+	background: #eee;
+}
+#footer_widget_area li{
+	display: inline-block;
+	width:22%;
+	text-align: left;
+}
+.single_footer_widget{
+	display: flex;
+	flex-direction: column;
+	padding: 30px 20px;
+}
+.single_footer_widget h3 {
+	font-size: 18px;
+	margin: 15px 0;
+	color: #2c2c2c;
+}
+.single_footer_widget p {
+	color: #7c7c7c;
+}
+.single_footer_widget li {
+	display: block !important;
+	width: 100% !important;
+	padding: 5px 0;
+		border-bottom: 1px solid #c4c4c4;
+}
+.single_footer_widget li a {
+	color: #1f232c;
+
+	text-decoration: none;
+	padding: 3px 0;
+}
+#a_tag{
+	text-decoration: none;
+	color:#1f232c;
+	text-align: right;
+}
+.foot_form input {
+	border: none;
+	border-radius: 5px;
+	display: block;
+	padding: 8px 20px;
+	margin: 10px 0 auto;
+}
+.foot_form input[type="submit"] {
+	background: #1f232c;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+#foot p {
+	background: #1f232c;
+	padding: 20px;
+	color: #fff;
+	overflow: hidden;
+}
+
+#foot p span:nth-child(1){
+	float: left;
+}
+#foot p span:nth-child(2){
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
